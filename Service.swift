@@ -9,13 +9,8 @@ import Foundation
 import Alamofire
 
 enum Endpoints: String {
-    case token = "/api/authenticate/sign-in"
-    case transaction = "/api/transactions"
-    case detectType = "/api/transactions/detect-type"
-    case transactionStatus = "/api/transactions/update-transaction-status"
-    case nfc = "/api/transactions/update-nfc-data"
-    case liveness = "/api/transactions/update-liveness-data"
-    case speech = "/api/transactions/update-selfvideo-data"
+    case token = ""
+    case transaction = ""
 }
 
 enum ServiceResult<T> {
